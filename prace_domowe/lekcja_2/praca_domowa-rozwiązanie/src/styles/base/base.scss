@@ -1,0 +1,14 @@
+body, a {
+  font-family: $font-family-default;
+  color: $color-text-default;
+}
+
+a {
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color-text-default;
+  }
+}
+
+@debug('aaaaaaaaaaaaaaaaaa')

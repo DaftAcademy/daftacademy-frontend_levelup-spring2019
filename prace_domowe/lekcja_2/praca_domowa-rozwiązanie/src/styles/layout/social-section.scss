@@ -1,0 +1,31 @@
+.social-section {
+    font-size: $font-size-footer-item;
+    letter-spacing: 1.4px;
+    display: flex;
+    margin: 30px 0 0 0;
+
+    &__items {
+        display: flex;
+    }
+}
+
+@media (min-width: 540px) {
+    .social-section {
+        margin: 0
+    }
+}
+
+.svg-icon {
+    display: block;
+    font-size: 0px;
+    color: $color-transparent;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 15px;
+    opacity: 0.4;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 1;
+    }
+}
