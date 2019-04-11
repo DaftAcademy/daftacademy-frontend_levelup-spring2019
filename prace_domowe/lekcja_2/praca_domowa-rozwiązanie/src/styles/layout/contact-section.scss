@@ -1,0 +1,16 @@
+.contact-section {
+  font-size: $font-size-footer-item;
+  letter-spacing: 1.4px;
+
+  &__item {
+
+    &--link {
+      color: $color-text-highlight;
+      text-decoration: none;
+      transition: 0.2s;
+      &:hover {
+        color: $color-text-default;
+      }
+    }
+  }
+}

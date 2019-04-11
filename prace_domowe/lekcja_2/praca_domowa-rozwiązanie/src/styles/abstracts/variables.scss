@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Rochester');
+
+/**Simple colors**/
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-black-20: rgba(0, 0, 0, 0.2);
+$color-blue: #27354f;
+$color-blue-40:rgba(39, 53, 79, 0.4);
+$color-blue-20:rgba(39, 53, 79, 0.2);
+$color-light-green: #eef8f6;
+$color-light-orange: #ffe1b5;
+$color-transparent: rgba(0, 0, 0, 0);
+
+/** Background colors **/
+
+$color-background-page: $color-white;
+$color-background-default: $color-light-green;
+
+/** Border colors **/
+
+$color-border-dark-blue: $color-blue;
+$color-border-transparent: $color-transparent;
+$color-border-tile: $color-light-orange;
+
+/** Scroll colors **/
+
+$color-scrollbar: $color-blue-20;
+
+/** Menu undeline colors **/
+
+$color-menu-underline: $color-blue;
+
+/** Text colors **/
+
+$color-text-shadow: $color-black-20;
+$color-text-highlight: $color-blue;
+$color-text-default: $color-blue-40;
+
+/** General Font family and text size properties **/
+
+$font-family-default: 'Roboto', sans-serif;
+$font-family-fancy: 'Rochester', cursive;
+
+$font-size-logo: 38px;
+$font-size-logo-mobile: 28px;
+$font-size-menu-item: 16px;
+$font-size-menu-item-mobile: 36px;
+$font-size-menu-item-mobile-small: 24px;
+$font-size-main-section-item: 46px;
+$font-size-footer-item: 16px;
+
+/** General width and height properties **/
+
+$menu-item-width: 100%;

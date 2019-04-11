@@ -1,0 +1,67 @@
+.drinks-list {
+  margin: 70px 10px 100px 25px;
+  padding-right: 10px;
+
+  &__content {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  &__photo {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 0 solid $color-border-tile;
+    &:hover,
+    &--active {
+      border: 8px solid $color-border-tile;
+      text-shadow: 0 0 30px $color-text-shadow;
+    }
+  }
+}
+
+@media (min-width: 540px) {
+  .drinks-list {
+
+    &__item {
+      width: 50%;
+      padding: 20px;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .drinks-list {
+    overflow-y: scroll;
+    margin-top: 65px;
+
+    &__content {
+      max-height: 750px;
+    }
+
+    &__item {
+      width: 33%;
+      padding: 20px;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .drinks-list {
+    margin-top: 50px;
+
+    &__item {
+      width: 33%;
+      padding: 35px;
+    }
+  }
+}
