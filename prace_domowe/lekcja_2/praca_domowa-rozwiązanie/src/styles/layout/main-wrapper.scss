@@ -1,0 +1,15 @@
+.main-wrapper {
+  background-color: $color-background-default;
+  margin: 80px 10px 0 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (min-width: 900px) {
+  .main-wrapper {
+    max-height: 1200px;
+  }
+}

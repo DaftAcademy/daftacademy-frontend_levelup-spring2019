@@ -1,0 +1,15 @@
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 0;
+}
+
+@media (min-width: 540px) {
+  .page-footer {
+    flex-direction: row;
+    padding: 35px 65px;
+  }
+}

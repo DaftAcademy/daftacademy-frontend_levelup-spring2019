@@ -1,0 +1,50 @@
+.page-header {
+  &__item {
+
+  }
+
+  &__logo-image {
+    position: absolute;
+    left: 30px;
+    top: -26px;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+    color: $color-text-highlight;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-fancy;
+    transition: 0.5s;
+    box-sizing: border-box;
+
+    width: 120px;
+    height: 45px;
+    font-size: $font-size-logo-mobile;
+    border: 2px solid $color-border-dark-blue;
+
+
+    &:hover {
+      border: 2px solid $color-border-transparent;
+    }
+
+  }
+}
+
+@media (min-width: 540px) {
+  .page-header {
+    &__logo-image {
+      left: 50px;
+      top: -40px;
+    }
+
+    &__logo-link {
+      width: 170px;
+      height: 65px;
+      font-size: $font-size-logo;
+      border: 3px solid $color-border-dark-blue;
+    }
+  }
+}
